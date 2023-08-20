@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper and Scissor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>ROCK PAPER AND SCISSOR</h1>
+
+    <div class="container">
+      <button onclick="play('rock')">
+        <img src="images/rock.png" draggable="false" />
+      </button>
+      <button onclick="play('paper')">
+        <img src="images/paper.png" draggable="false" />
+      </button>
+      <button onclick="play('scissor')">
+        <img src="images/scissor.png" draggable="false" />
+      </button>
+    </div>
+    <div class="reset"><button onclick="reset()">
+      RESET
+    </button></div>
+    <div class="score"></div>
+    <div class="finalResult"></div>
+    <div class="a"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
